@@ -8,6 +8,7 @@ This work is released under the Creative Commons Attribution-ShareAlike
 ---
 ### This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
+#### You are free to:
 Share — copy and redistribute the material in any medium or format
 
 Adapt — remix, transform, and build upon the material
