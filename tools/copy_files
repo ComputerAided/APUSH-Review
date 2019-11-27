@@ -1,0 +1,17 @@
+#!/bin/bash
+
+source_dir=$1
+period=$2
+dest_dir=../Period\ $period
+
+#Copy Presentations
+cp "$source_dir/"*".pptx" "$dest_dir"/Presentations
+rm "$dest_dir"/Presentations/*Tell\ the\ Story*.pptx
+rm "$dest_dir"/Presentations/presentations.tmp
+
+#Copy TTS
+cp "$source_dir/"*"Tell the Story"*.* "$dest_dir"/Tell\ the\ Stories/
+rm "$dest_dir"/Tell\ the\ Stories/TTS.tmp
+
+#Copy Video Review Guides
+cp "$source_dir/"*Guide*.* "$dest_dir"/Video\ Review\ Guides/
