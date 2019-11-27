@@ -2,7 +2,7 @@
 
 source_dir=$1
 period=$2
-dest_dir=/mnt/d/Users/khora/Documents/GitHub/APUSH-Review/Period\ $period
+dest_dir=../Period\ $period
 
 #Copy Presentations
 cp "$source_dir/"*".pptx" "$dest_dir"/Presentations
